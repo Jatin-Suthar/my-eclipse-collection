@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Fifth {
 	public static void main(String[] args) {
-		try {
-			 throw 10;
-		}catch(int e) {
-			System.out.println("Got the Exception " + e);
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		while(n >= 10){
+			n++;
 		}
 	}
 }
